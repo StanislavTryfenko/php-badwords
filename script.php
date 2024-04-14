@@ -15,10 +15,10 @@ $censoredTextLengh = strlen($censoredText);
     <title>Document</title>
 </head>
 <body>
-    <h2>Testo:<?php echo $textLengh?></h2>
+    <h2>Testo: <?php echo $textLengh." lettere"?></h2>
     <h4><?php echo $text?></h4>
     <hr>
-    <h2>Testo censurato:<?php echo $censoredTextLengh?></h2>
+    <h2>Testo censurato: <?php echo $censoredTextLengh." lettere"?></h2>
     <h4><?php echo $censoredText?></h4>
 </body>
 </html>
